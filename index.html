@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070a13" />
+  <meta name="description" content="Karthik Lakshman — Computer Science Engineering student building AI, computer vision, full-stack and automation projects." />
+  <title>Karthik Lakshman | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="grid-bg"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="nav-wrap" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="Karthik Lakshman home">
+        <span class="brand-mark">K</span>
+        <span>KARTHIK<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#cv">CV</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="status-pill"><span class="status-dot"></span> Open to internships & collaborations</div>
+          <p class="eyebrow">COMPUTER SCIENCE • AI • DEVELOPMENT</p>
+          <h1>I build <span>things</span><br />worth showing.</h1>
+          <p class="hero-text">
+            I'm Karthik Lakshman — a CSE student who learns by building. I work across AI, computer vision,
+            web development and automation, turning ideas into real, usable projects.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="btn btn-ghost" href="#cv">View CV <span>↓</span></a>
+          </div>
+          <div class="hero-links">
+            <a href="https://github.com/Karthik-978" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/karthik-lakshman-maganti-87139631b/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="mailto:karthiklakshman290506@gmail.com">Email ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="portrait-card tilt-card">
+            <div class="portrait-glow"></div>
+            <div class="portrait-frame">
+              <img class="profile-photo" src="./profile.jpg" alt="Karthik Lakshman" />
+              <div class="photo-fallback" aria-hidden="true">KL</div>
+            </div>
+            <div class="portrait-label">
+              <div><span class="mini-label">CURRENTLY</span><strong>Building & learning</strong></div>
+              <span class="portrait-arrow">↗</span>
+            </div>
+          </div>
+          <div class="floating-chip chip-one">AI / ML</div>
+          <div class="floating-chip chip-two">FULL STACK</div>
+          <div class="floating-chip chip-three">COMPUTER VISION</div>
+        </div>
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container section-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Curious enough<br /><span>to build.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="lead">
+            I don't want to only collect tutorials. I want to understand how things work by actually making them.
+          </p>
+          <p>
+            My work ranges from a full-stack volunteer management platform to computer-vision tools that let people
+            interact with a computer using hand gestures or eye movement. I enjoy the messy middle — debugging,
+            redesigning, testing and getting a project to a point where another person can actually use it.
+          </p>
+          <div class="about-stats">
+            <div><strong data-count="4">0</strong><span>Public core projects</span></div>
+            <div><strong data-count="6">0</strong><span>MongoDB badges</span></div>
+            <div><strong data-count="1">0</strong><span>Hackathon project</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Tools I use to turn<br /><span>ideas into software.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal tilt-card"><span class="skill-number">01</span><h3>Programming</h3><p>Python, Java, JavaScript, C</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-number">02</span><h3>Web & UI</h3><p>HTML5, CSS3, React, Vite, Tailwind CSS, responsive design</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-number">03</span><h3>Backend</h3><p>Flask, Node.js, Firebase, Firestore</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-number">04</span><h3>AI & Vision</h3><p>AI/ML concepts, OpenCV, computer vision, DeepFace, OCR</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-number">05</span><h3>Data</h3><p>MongoDB, SQL, Firestore, Excel, Google Sheets</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-number">06</span><h3>Automation</h3><p>Python automation, Playwright, browser workflows and form automation</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading project-heading reveal">
+          <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with a<br /><span>reason to exist.</span></h2></div>
+          <a class="text-link" href="https://github.com/Karthik-978" target="_blank" rel="noreferrer">View all on GitHub ↗</a>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card featured reveal tilt-card">
+            <div class="project-index">01</div>
+            <div class="project-main">
+              <div class="project-top"><span>FULL STACK</span><span>01</span></div>
+              <h3>Evenciaga</h3>
+              <p>A volunteer management platform for event organizers — handling events, volunteers, attendance, notifications and operational workflows.</p>
+              <div class="tags"><span>React</span><span>Vite</span><span>Tailwind</span><span>Firebase</span><span>Express</span><span>Capacitor</span></div>
+              <a class="project-link" href="https://github.com/Karthik-978/Evenciaga" target="_blank" rel="noreferrer">Open repository <span>↗</span></a>
+            </div>
+            <div class="project-art evenciaga-art"><div class="art-window"><i></i><i></i><i></i><div class="art-lines"></div><div class="art-blocks"><b></b><b></b><b></b></div></div></div>
+          </article>
+
+          <article class="project-card reveal tilt-card">
+            <div class="project-index">02</div>
+            <div class="project-main"><div class="project-top"><span>AI / COMPUTER VISION</span><span>02</span></div><h3>CarbonLensAI</h3><p>A food-image based carbon footprint project connecting image analysis with environmental impact estimation through a simple web workflow.</p><div class="tags"><span>Python</span><span>Flask</span><span>Vision</span><span>OCR</span></div><a class="project-link" href="https://github.com/Karthik-978/Carbon-Lens-Ai" target="_blank" rel="noreferrer">Open repository <span>↗</span></a></div>
+            <div class="project-art carbon-art"><div class="planet"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="carbon-number">CO₂</div></div>
+          </article>
+
+          <article class="project-card reveal tilt-card">
+            <div class="project-index">03</div>
+            <div class="project-main"><div class="project-top"><span>COMPUTER VISION</span><span>03</span></div><h3>Hand Controller</h3><p>Hands-free computer control using webcam-based hand gestures for cursor movement, clicking, scrolling and basic actions.</p><div class="tags"><span>Python</span><span>Webcam</span><span>Gesture Control</span></div><a class="project-link" href="https://github.com/Karthik-978/Hand-Controller" target="_blank" rel="noreferrer">Open repository <span>↗</span></a></div>
+            <div class="project-art hand-art"><div class="hand-line">✋</div><div class="gesture-dot d1"></div><div class="gesture-dot d2"></div><div class="gesture-dot d3"></div></div>
+          </article>
+
+          <article class="project-card reveal tilt-card">
+            <div class="project-index">04</div>
+            <div class="project-main"><div class="project-top"><span>COMPUTER VISION</span><span>04</span></div><h3>Eye Controller</h3><p>A gaze-based hands-free computer interaction prototype using webcam eye tracking and eye movement concepts.</p><div class="tags"><span>Python</span><span>Webcam</span><span>Eye Tracking</span></div><a class="project-link" href="https://github.com/Karthik-978/Eye-controller" target="_blank" rel="noreferrer">Open repository <span>↗</span></a></div>
+            <div class="project-art eye-art"><div class="eye-shape"><span></span></div><div class="scan-line"></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section credentials-section" id="credentials">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">04 / CREDENTIALS</p><h2>Learning, leadership<br /><span>& proof of work.</span></h2></div>
+        <div class="credentials-grid">
+          <article class="credential-card reveal"><span class="credential-kicker">CERTIFICATION</span><h3>Building RAG Apps Using MongoDB</h3><p>MongoDB • Issued July 2026</p><a href="https://www.linkedin.com/in/karthik-lakshman-maganti-87139631b/details/certifications/" target="_blank" rel="noreferrer">View credentials ↗</a></article>
+          <article class="credential-card reveal"><span class="credential-kicker">CERTIFICATION</span><h3>Building AI-Powered Search with MongoDB Vector Search</h3><p>MongoDB • Issued July 2026</p><a href="https://www.linkedin.com/in/karthik-lakshman-maganti-87139631b/details/certifications/" target="_blank" rel="noreferrer">View credentials ↗</a></article>
+          <article class="credential-card reveal"><span class="credential-kicker">LEARNING</span><h3>Introduction to Generative AI</h3><p>Certificate dated 6 April 2026</p><span class="credential-muted">Generative AI learning</span></article>
+          <article class="credential-card reveal"><span class="credential-kicker">PROGRAM</span><h3>MongoDB Learning Program</h3><p>Completed all 6 modules • 6 badges • completion certificate</p><span class="credential-muted">GeeksforGeeks Campus Mantri initiative</span></article>
+        </div>
+
+        <div class="achievement-strip reveal">
+          <div><span>LEADERSHIP</span><strong>GeeksforGeeks Campus Mantri</strong><p>Student outreach, technical awareness and community engagement.</p></div>
+          <div><span>PROGRAM</span><strong>IEEE Summer of Code 2026</strong><p>Hands-on technical learning and problem solving.</p></div>
+          <div><span>HACKATHON</span><strong>CarbonLensAI</strong><p>Worked on the Mikkilneni Ravi Prakash Memorial Hackathon problem statement.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cv-section" id="cv">
+      <div class="container">
+        <div class="section-heading resume-heading reveal">
+          <div><p class="eyebrow">05 / CURRICULUM VITAE</p><h2>The full story.<br /><span>Not just one page.</span></h2></div>
+          <div class="document-actions">
+            <a class="btn btn-primary" href="./Karthik_Lakshman_CV.pdf" download>Download CV <span>↓</span></a>
+            <button class="btn btn-ghost" id="printCV">Print / Save CV <span>↗</span></button>
+          </div>
+        </div>
+
+        <div class="cv-page reveal">
+          <div class="cv-header">
+            <div>
+              <p class="cv-kicker">CURRICULUM VITAE</p>
+              <h3>KARTHIK LAKSHMAN</h3>
+              <p class="cv-title">B.Tech Computer Science Engineering Student • AI • Development • Computer Vision</p>
+              <div class="cv-contact">
+                <a href="tel:9652375986">9652375986</a>
+                <a href="mailto:karthiklakshman290506@gmail.com">karthiklakshman290506@gmail.com</a>
+                <a href="https://github.com/Karthik-978" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/karthik-lakshman-maganti-87139631b/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+            <img class="cv-photo" src="./profile.jpg" alt="Karthik Lakshman" />
+          </div>
+
+          <div class="cv-grid">
+            <aside class="cv-sidebar">
+              <div class="cv-block"><h4>PROFILE</h4><p>Computer Science Engineering student who learns by building practical software. Interested in AI, computer vision, web development, automation and products that solve real problems.</p></div>
+              <div class="cv-block"><h4>EDUCATION</h4><p><strong>B.Tech — Computer Science Engineering</strong><br />TKR College of Engineering and Technology<br /><span>2024 – Present</span></p><p><strong>Intermediate</strong><br />Sri Chaitanya Junior College<br /><span>91.2% • 2022 – 2024</span></p><p><strong>SSC</strong><br />DR.KKR's Gowtham E.M School<br /><span>524 marks • 2016 – 2022</span></p></div>
+              <div class="cv-block"><h4>TECHNICAL SKILLS</h4><p><strong>Programming</strong><br />Python, Java, JavaScript, C</p><p><strong>Web</strong><br />HTML, CSS, React, Vite, Tailwind CSS</p><p><strong>Backend</strong><br />Flask, Node.js, Firebase, Firestore</p><p><strong>AI / Vision</strong><br />Computer Vision, OpenCV, DeepFace, OCR</p><p><strong>Data</strong><br />MongoDB, SQL, Firestore</p><p><strong>Tools</strong><br />Git, GitHub, VS Code, Capacitor, Playwright</p></div>
+              <div class="cv-block"><h4>LANGUAGES</h4><p>English • Telugu</p></div>
+            </aside>
+
+            <div class="cv-main">
+              <div class="cv-block"><h4>SELECTED PROJECTS</h4>
+                <div class="cv-project"><h5>Evenciaga <span>FULL STACK</span></h5><p>Volunteer management platform for event organizers covering events, volunteers, attendance, notifications and operational workflows. Built around React/Vite, Tailwind CSS, Firebase/Firestore and backend services, with Android packaging explored through Capacitor.</p><a href="https://github.com/Karthik-978/Evenciaga" target="_blank" rel="noreferrer">Repository ↗</a></div>
+                <div class="cv-project"><h5>CarbonLensAI <span>AI / COMPUTER VISION</span></h5><p>Food-image based carbon-footprint project connecting image analysis, food classification and environmental impact estimation through a Python/Flask workflow with OCR components.</p><a href="https://github.com/Karthik-978/Carbon-Lens-Ai" target="_blank" rel="noreferrer">Repository ↗</a></div>
+                <div class="cv-project"><h5>Hand Controller <span>COMPUTER VISION</span></h5><p>Webcam-based hands-free computer controller using hand gestures for cursor movement, clicking, scrolling and basic computer actions.</p><a href="https://github.com/Karthik-978/Hand-Controller" target="_blank" rel="noreferrer">Repository ↗</a></div>
+                <div class="cv-project"><h5>Eye Controller <span>COMPUTER VISION</span></h5><p>Webcam-based gaze controller for hands-free interaction using eye movement and tracking concepts.</p><a href="https://github.com/Karthik-978/Eye-controller" target="_blank" rel="noreferrer">Repository ↗</a></div>
+                <div class="cv-project"><h5>Vistera Hackathon Website</h5><p>Improved a hackathon website with stronger visual hierarchy, responsive layouts, sponsor visibility, prize-pool presentation, registration flow and event sections.</p></div>
+                <div class="cv-project"><h5>Nova AI</h5><p>AI-oriented Flask web application prototype combining API integration, web templates, static assets and computer-vision functionality.</p></div>
+                <div class="cv-project"><h5>Automation Workflows</h5><p>Built Python and Playwright workflows for spreadsheet processing, browser navigation, Google Forms/Sheets handling and repetitive data-entry tasks.</p></div>
+              </div>
+
+              <div class="cv-block"><h4>LEADERSHIP & ACTIVITIES</h4>
+                <p><strong>GeeksforGeeks — Campus Mantri:</strong> supported technical learning, student outreach, program promotion and community engagement.</p>
+                <p><strong>Student Tribe — Active Tribe Ambassador:</strong> supported student communication, networking and community activities.</p>
+                <p><strong>IEEE Summer of Code 2026:</strong> participated in a technical program focused on hands-on learning and problem solving.</p>
+                <p><strong>Mikkilneni Ravi Prakash Memorial Hackathon:</strong> worked on CarbonLensAI for the assigned problem statement.</p>
+              </div>
+
+              <div class="cv-block"><h4>CERTIFICATIONS & LEARNING</h4>
+                <ul>
+                  <li>Building RAG Apps Using MongoDB — MongoDB, July 2026</li>
+                  <li>Building AI-Powered Search with MongoDB Vector Search — MongoDB, July 2026</li>
+                  <li>Introduction to Generative AI — April 2026</li>
+                  <li>Generative AI certificate — Simplilearn</li>
+                  <li>GenAI Data Analytics — Forage by Tata</li>
+                  <li>TestMu AI Certification</li>
+                  <li>MongoDB Learning Program — 6 modules, 6 badges and completion certificate</li>
+                </ul>
+              </div>
+
+              <div class="cv-block"><h4>HIGHLIGHTS</h4>
+                <ul>
+                  <li>Built and published public projects spanning full-stack development, AI, computer vision and automation.</li>
+                  <li>Selected as a GeeksforGeeks Campus Mantri.</li>
+                  <li>Completed all 6 MongoDB learning modules and earned 6 badges.</li>
+                  <li>Participated in IEEE Summer of Code 2026.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume-section compact-resume" id="resume">
+      <div class="container">
+        <div class="section-heading resume-heading reveal"><div><p class="eyebrow">06 / ONE-PAGE RESUME</p><h2>Short version.<br /><span>Easy to send.</span></h2></div><div class="document-actions"><a class="btn btn-primary" href="./Karthik_Lakshman_Resume.pdf" download>Download Resume <span>↓</span></a><button class="btn btn-ghost" id="printResume">Print / Save PDF <span>↗</span></button></div></div>
+        <div class="resume-page reveal">
+          <div class="resume-header">
+            <div><h3>KARTHIK LAKSHMAN</h3><p>B.Tech Computer Science Engineering Student • AI • Development • Computer Vision</p><div class="resume-contact"><a href="tel:9652375986">9652375986</a><a href="mailto:karthiklakshman290506@gmail.com">karthiklakshman290506@gmail.com</a><a href="https://github.com/Karthik-978" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/karthik-lakshman-maganti-87139631b/" target="_blank" rel="noreferrer">LinkedIn</a></div></div><img class="resume-photo" src="./profile.jpg" alt="Karthik Lakshman resume photo" /></div>
+          <div class="resume-layout">
+            <aside class="resume-side">
+              <div class="resume-block"><h4>PROFILE</h4><p>Computer Science Engineering student focused on practical software development across AI, computer vision, web development and automation.</p></div>
+              <div class="resume-block"><h4>EDUCATION</h4><p><strong>B.Tech — Computer Science Engineering</strong><br />TKR College of Engineering and Technology<br /><span>2024 – Present</span></p><p><strong>Intermediate</strong><br />Sri Chaitanya Junior College<br /><span>91.2% • 2022 – 2024</span></p><p><strong>SSC</strong><br />DR.KKR's Gowtham E.M School<br /><span>524 marks • 2016 – 2022</span></p></div>
+              <div class="resume-block"><h4>SKILLS</h4><p><strong>Programming</strong><br />Python, Java, JavaScript, C</p><p><strong>Web</strong><br />HTML, CSS, React, Vite, Tailwind</p><p><strong>Backend</strong><br />Flask, Node.js, Firebase</p><p><strong>AI / Vision</strong><br />OpenCV, Computer Vision, DeepFace, OCR</p><p><strong>Data</strong><br />MongoDB, SQL, Firestore</p></div>
+            </aside>
+            <div class="resume-main"><div class="resume-block"><h4>SELECTED PROJECTS</h4>
+              <div class="resume-project"><h5>Evenciaga <span>FULL STACK</span></h5><p>Volunteer management platform for events, volunteers, attendance and operational workflows.</p><a href="https://github.com/Karthik-978/Evenciaga" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+              <div class="resume-project"><h5>CarbonLensAI <span>AI / VISION</span></h5><p>Food-image based carbon-footprint application built with Python and Flask.</p><a href="https://github.com/Karthik-978/Carbon-Lens-Ai" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+              <div class="resume-project"><h5>Hand Controller <span>VISION</span></h5><p>Webcam hand-gesture control for cursor movement, clicking and scrolling.</p><a href="https://github.com/Karthik-978/Hand-Controller" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+              <div class="resume-project"><h5>Eye Controller <span>VISION</span></h5><p>Webcam eye-tracking prototype for hands-free computer interaction.</p><a href="https://github.com/Karthik-978/Eye-controller" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+            </div><div class="resume-block"><h4>LEADERSHIP & CREDENTIALS</h4><p><strong>GeeksforGeeks Campus Mantri</strong> • Student outreach and technical program promotion.</p><p><strong>MongoDB Learning Program</strong> • 6 modules, 6 badges and completion certificate.</p><p><strong>IEEE Summer of Code 2026</strong> • Hands-on technical learning.</p><p><strong>MongoDB certifications</strong> • RAG Apps and AI-Powered Search with Vector Search.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div><p class="eyebrow">07 / CONTACT</p><h2>Have an idea?<br /><span>Let's build it.</span></h2><p>For internships, collaborations, project discussions or technical opportunities, reach out.</p></div>
+        <div class="contact-actions"><a class="btn btn-primary" href="mailto:karthiklakshman290506@gmail.com">Email me <span>↗</span></a><a class="btn btn-ghost" href="https://www.linkedin.com/in/karthik-lakshman-maganti-87139631b/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a class="btn btn-ghost" href="https://github.com/Karthik-978" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Karthik Lakshman</span><span>Built with HTML, CSS & a lot of iteration.</span><a href="#top">Back to top ↑</a></div></footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle?.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      menuToggle.classList.toggle('open', open);
+      menuToggle.setAttribute('aria-expanded', String(open));
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    const progress = document.getElementById('scrollProgress');
+    window.addEventListener('scroll', () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = max > 0 ? `${(window.scrollY / max) * 100}%` : '0%';
+    }, { passive: true });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('[data-count]').forEach(counter => {
+      const target = Number(counter.dataset.count);
+      let done = false;
+      const countObserver = new IntersectionObserver(entries => {
+        if (!entries[0].isIntersecting || done) return;
+        done = true;
+        let n = 0;
+        const step = Math.max(1, Math.ceil(target / 30));
+        const timer = setInterval(() => {
+          n += step;
+          if (n >= target) { n = target; clearInterval(timer); }
+          counter.textContent = n;
+        }, 35);
+        countObserver.disconnect();
+      }, { threshold: 0.8 });
+      countObserver.observe(counter);
+    });
+
+    document.querySelectorAll('.tilt-card').forEach(card => {
+      card.addEventListener('pointermove', e => {
+        if (window.innerWidth < 900) return;
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = `perspective(900px) rotateX(${(-y * 4).toFixed(2)}deg) rotateY(${(x * 5).toFixed(2)}deg) translateY(-4px)`;
+      });
+      card.addEventListener('pointerleave', () => card.style.transform = '');
+    });
+
+    const printResume = document.getElementById('printResume');
+    const printCV = document.getElementById('printCV');
+    printResume?.addEventListener('click', () => window.print());
+    printCV?.addEventListener('click', () => { document.body.classList.add('printing-cv'); window.print(); });
+    window.addEventListener('afterprint', () => document.body.classList.remove('printing-cv'));
+
+    const photoFallback = document.querySelector('.photo-fallback');
+    const photos = document.querySelectorAll('.profile-photo, .resume-photo');
+    photos.forEach(photo => photo.addEventListener('error', () => {
+      photo.style.display = 'none';
+      if (photo.classList.contains('profile-photo') && photoFallback) photoFallback.style.display = 'grid';
+    }));
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
